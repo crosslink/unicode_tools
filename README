@@ -1,0 +1,16 @@
+1. UTF-8 text to machine code
+./char2utf8 쫑즈
+Input: 쫑즈
+OCT: "\354\253\221\354\246\210"
+HEX: (char)0xec, (char)0xab, (char)0x91, (char)0xec, (char)0xa6, (char)0x88
+
+2. Machine code to UTF-8 text
+./utf8char "\354\253\221\354\246\210"
+Input: "쫑즈"
+
+
+3. Code point to UTF-8 text
+./cp2utf8 12323
+Code point: 12323
+Input: 〣
+
